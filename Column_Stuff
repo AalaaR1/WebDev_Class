@@ -1,0 +1,170 @@
+<!--Rows and Columns Demo-->
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<title>Columns and Rows Demo</title>
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<h1>Day 5</h1>
+<div class="row">
+    <div class ="testBox red col-12" > 1 </div>
+</div> <!--end of the row-->
+<div class="row">
+	<div class ="testBox orange col-6" > 2 </div>
+	<div class ="testBox yellow col-6"> 3 </div>
+</div>	<!--end of the row-->
+<div class="row">
+	<div class ="testBox green col-4"> 4 </div>
+	<div class ="testBox cyan col-4"> 5 </div>
+	<div class ="testBox blue col-4"> 6 </div>
+</div> <!--end of the row-->
+<div class="row">
+	<div class ="testBox violet col-3"> 7 </div>
+	<div class ="testBox purple col-9"> 8 </div>
+</div> <!--end of the row-->
+
+<div class="row">
+	<div class ="testBox red col-2"> 9 </div>
+	<div class ="testBox orange col-2"> 10 </div>
+	<div class ="testBox yellow col-2"> 11 </div>
+	<div class ="testBox green col-2"> 12 </div>
+	<div class ="testBox cyan col-2"> 13 </div>
+	<div class ="testBox blue col-2"> 14 </div>
+</div> <!--end of the row-->
+
+<div class="row">
+	<div class ="testBox violet col-12"> 15 </div>
+</div> <!--end of the row-->
+
+
+
+
+</body>
+</html>
+
+
+___________________________________________________________
+
+CSS
+
+
+
+/*
+This css document has a good starting point for creating your own default css page.  
+Feel free to copy from this page as you like. 
+*/
+
+
+img, embed, object, video {
+ max-width: 100%;
+}
+ 
+.row {
+ width: 100%;
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.testBox {
+	height: 100px;
+	background-color: lightblue;
+	width: 100px;
+}
+
+/* A collection of column widths to choose from */
+
+.col-1{
+ width: 8.33%;
+}
+ 
+.col-2{
+ width: 16.66%;
+}
+ 
+.col-3{
+ width: 25%;
+}
+ 
+.col-4{
+ width: 33.33%;
+}
+ 
+.col-5{
+ width: 41.66%;
+}
+ 
+.col-6{
+ width: 50%;
+}
+.col-7{
+ width: 58.33%;
+}
+ 
+.col-8{
+ width: 66.66%;
+}
+ 
+.col-9{
+ width: 75%;
+}
+ 
+.col-10{
+ width: 83.33%;
+}
+ 
+.col-11{
+ width: 91.66%;
+}
+ 
+.col-12{
+ width: 100%;
+}
+ 
+.goodFonts {
+    font-size:16px;
+    line-hight: 1.2em;
+}
+ 
+.biggerFonts {
+    font-size:18px;
+    line-height:1.25em;
+}
+
+
+/*Background colors*/
+
+.red{
+	background-color: red;
+}
+
+.orange{
+	background-color: orange;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green{
+	background-color: green;
+}
+
+.cyan{
+	background-color: cyan;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.violet{
+	background-color: violet;
+}
+
+.purple{
+	background-color: purple;
+}
+________________________________________________________________________________________
